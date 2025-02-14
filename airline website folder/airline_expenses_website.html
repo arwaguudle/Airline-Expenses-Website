@@ -6,50 +6,64 @@
         <meta name="author" content="Arwa Ibrahim Guudle">
         <link rel="stylesheet" type="text/css" href="airline_expenses_website.css">
         <title>Airline Expenses</title>
-
-        <h1 id="main-header">Expenses of US Airlines</h1>
-        <p id="main-introduction">This is my little paragraph on the airline website</p>
-        <p id="website-description">The following website contains the graph used from the following dataset website: </p>
-        <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
-            <input type="submit" value="Click here to view the dataset">
-        </form>
-        <p id="summary">This website contains the information</p>
-
-        <h2 id="graph-header">Graph of US Airlines Expenses</h2>
-
-        <div class="gallery-box" id="totalsector" onclick="changeImage('total')">
-            <p>Total Sector Expenses for all Airlines</p>
+        
+        <div class="inner">
+            <section id="toggle" class="active" style="display: none;">
+                <h1 id="text1"> "click on the icon to continue...</h1>
+                <img src="airplane.png" alt="airplane" id="airplane" onclick="toggle()">
+            </section>
         </div>
+        <div class="inner">
+            <section id="beginning" class="inactive" display="none">
+            <p id="main-introduction">This is my little paragraph on the airline website</p>
+            <p id="website-description">The following website contains the graph used from the following dataset website: </p>
+            <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
+                <input type="submit" value="Click here to view the dataset">
+            </form>
+            <p id="summary">This website contains the information</p>
 
-        <div class="image" id="total">
-            <img src="Total Sector Expenses.png" alt="Total Expenses">
-        </div>
+            <h2 id="graph-header">Graph of US Airlines Expenses</h2>
 
-        <div class="gallery-box" id="ninety-five" onclick="changeImage('1995')">
-            <p>1995</p>
-        </div>
+            <div class="gallery-box" id="totalsector" onclick="changeImage('total')">
+                <p>Total Sector Expenses for all Airlines</p>
+            </div>
 
-        <div class="image" id="1995" style="display: none;">
-            <img src="1995.png" alt="1995">
-        </div>
+            <div class="image" id="total">
+                <img src="Total Sector Expenses.png" alt="Total Expenses">
+            </div>
 
-        <div class="gallery-box" id="ninety-six" onclick="changeImage('1996')">
-            <p>1996</p>
-        </div>
+            <div class="gallery-box" id="ninety-five" onclick="changeImage('1995')">
+                <p>1995</p>
+            </div>
 
-        <div class="image" id="1996" style="display: none;">
-            <img src="1996.png" alt="1996">
-        </div>
+            <div class="image" id="1995" style="display: none;">
+                <img src="1995.png" alt="1995">
+            </div>
 
-        <div class="gallery-box" id="ninety-seven" onclick="changeImage('1997')">
-            <p>1997</p>
-        </div>
+            <div class="gallery-box" id="ninety-six" onclick="changeImage('1996')">
+                <p>1996</p>
+            </div>
 
-        <div class="image" id="1997" style="display: none;">
-            <img src="1997.png" alt="1997">
-        </div>
+            <div class="image" id="1996" style="display: none;">
+                <img src="1996.png" alt="1996">
+            </div>
+
+            <div class="gallery-box" id="ninety-seven" onclick="changeImage('1997')">
+                <p>1997</p>
+            </div>
+
+            <div class="image" id="1997" style="display: none;">
+                <img src="1997.png" alt="1997">
+            </div>
+            </section>
 
         <script>
+            function toggle(){
+                var section = document.getElementById("beginning");
+
+                section.classList.toggle("inactive");
+            }
+
             function changeImage(imageId) {
                 // Hide all images
                 const images = document.querySelectorAll('.image');
