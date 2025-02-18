@@ -4,65 +4,100 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Arwa Ibrahim Guudle">
+        <title>Airline Expenses</title>
         <link rel="stylesheet" type="text/css" href="airline_expenses_website.css">
-       
-        
+
+        <style>
+            .inactive {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
         <div class="inner">
-            <section id="toggle" class="active" style="text-align: center;">
-                <h1 id="text1"> "click on the icon to continue...</h1>
-                <img src="https://icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png" alt="airplane" id="airplane" onclick="toggle()">
+            <section id="pop" class="active" style="text-align: center;">
+                <h1 id="text1">Click on the icon to continue...</h1>
+                <img src="https://banner2.cleanpng.com/20180407/cew/avgs2v730.webp" 
+                     alt="airplane" id="icon" onclick="toggleSection()">
             </section>
         </div>
+
         <div class="inner">
-            <section id="beginning" class="inactive" display="none">
-            <title>Airline Expenses</title>
-            <p id="main-introduction">This is my little paragraph on the airline website</p>
-            <p id="website-description">The following website contains the graph used from the following dataset website: </p>
-            <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
-                <input type="submit" value="Click here to view the dataset">
-            </form>
-            <p id="summary">This website contains the information</p>
+            <section id="beginning" class="inactive">
+                <h1 id="main-header">US Airlines Expenses</h1>
+                <p id="main-introduction">This is my little paragraph on the airline website</p>
+                <p id="website-description">The following website contains the graph used from the following dataset website: </p>
+                <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
+                    <input type="submit" value="Click here to view the dataset">
+                </form>
+                <p id="summary">This website contains the information</p>
 
-            <h2 id="graph-header">Graph of US Airlines Expenses</h2>
+                <h2 id="graph-header">Graph of US Airlines Expenses</h2>
 
-            <div class="gallery-box" id="totalsector" onclick="changeImage('total')">
-                <p>Total Sector Expenses for all Airlines</p>
-            </div>
+                <div class="gallery-box" id="totalsector" onclick="changeImage('total')">
+                    <p>Total Sector Expenses for all Airlines</p>
+                </div>
 
-            <div class="image" id="total">
-                <img src="Total Sector Expenses.png" alt="Total Expenses">
-            </div>
+                <div class="image" id="total">
+                    <img src="Total Sector Expenses.png" alt="Total Expenses">
+                </div>
 
-            <div class="gallery-box" id="ninety-five" onclick="changeImage('1995')">
-                <p>1995</p>
-            </div>
+                <div class="gallery-box" id="ninety-five" onclick="changeImage('1995')">
+                    <p>1995</p>
+                </div>
 
-            <div class="image" id="1995" style="display: none;">
-                <img src="1995.png" alt="1995">
-            </div>
+                <div class="image" id="1995" style="display: none;">
+                    <img src="1995.png" alt="1995">
+                </div>
 
-            <div class="gallery-box" id="ninety-six" onclick="changeImage('1996')">
-                <p>1996</p>
-            </div>
+                <div class="gallery-box" id="ninety-six" onclick="changeImage('1996')">
+                    <p>1996</p>
+                </div>
 
-            <div class="image" id="1996" style="display: none;">
-                <img src="1996.png" alt="1996">
-            </div>
+                <div class="image" id="1996" style="display: none;">
+                    <img src="1996.png" alt="1996">
+                </div>
 
-            <div class="gallery-box" id="ninety-seven" onclick="changeImage('1997')">
-                <p>1997</p>
-            </div>
+                <div class="gallery-box" id="ninety-seven" onclick="changeImage('1997')">
+                    <p>1997</p>
+                </div>
 
-            <div class="image" id="1997" style="display: none;">
-                <img src="1997.png" alt="1997">
-            </div>
+                <div class="image" id="1997" style="display: none;">
+                    <img src="1997.png" alt="1997">
+                </div>
+
+                <div class="gallery-box" id="ninety-eight" onclick="changeImage('1998')">
+                    <p>1998</p>
+                </div>
+
+                <div class="image" id="1998" style="display: none;">
+                    <img src="1998.png" alt="1998">
+                </div>
+
+
+                <div class="gallery-box" id="ninety-nine" onclick="changeImage('1999')">
+                    <p>1999</p>
+                </div>
+
+                <div class="image" id="1999" style="display: none;">
+                    <img src="1998.png" alt="1999">
+                </div>
+
+
+                <div class="gallery-box" id="two-zero" onclick="changeImage('2000')">
+                    <p>2000</p>
+                </div>
+
+                <div class="image" id="2000" style="display: none;">
+                    <img src="2000.png" alt="2000">
+                </div>
             </section>
+        </div>
 
         <script>
-            function toggle(){
-                var section = document.getElementById("beginning");
-
-                section.classList.toggle("inactive");
+            function toggleSection(){
+                document.getElementById("pop").classList.add("inactive");
+                document.getElementById("beginning").classList.remove("inactive");
             }
 
             function changeImage(imageId) {
@@ -75,11 +110,9 @@
                 // Show the clicked image
                 const imageToShow = document.getElementById(imageId);
                 if (imageToShow) {
-                    imageToShow.style.display = 'flex';
+                    imageToShow.style.display = 'block';
                 }
             }
         </script>
-    </head>
-    <body>
     </body>
 </html>
