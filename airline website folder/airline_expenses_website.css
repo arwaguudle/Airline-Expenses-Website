@@ -147,6 +147,261 @@ div{
     cursor: pointer;
 }
 
+#two-one{
+    width: 200px;
+    height: 200px;
+    margin-left: 420px;
+    margin-inline: 420px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-two{
+    width: 200px;
+    height: 200px;
+    margin-left: 630px;
+    margin-inline: 630px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-three{
+    width: 200px;
+    height: 200px;
+    margin-left: 840px;
+    margin-inline: 840px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-four{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top : 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-five{
+    width: 200px;
+    height: 200px;
+    margin-left: 210px;
+    margin-inline: 210px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-six{
+    width: 200px;
+    height: 200px;
+    margin-left: 420px;
+    margin-inline: 420px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-seven{
+    width: 200px;
+    height: 200px;
+    margin-left: 630px;
+    margin-inline: 630px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-eight{
+    width: 200px;
+    height: 200px;
+    margin-left: 840px;
+    margin-inline: 840px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-nine{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top : 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-ten{
+    width: 200px;
+    height: 200px;
+    margin-left: 210px;
+    margin-inline: 210px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-eleven{
+    width: 200px;
+    height: 200px;
+    margin-left: 420px;
+    margin-inline: 420px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-twelve{
+    width: 200px;
+    height: 200px;
+    margin-left: 630px;
+    margin-inline: 630px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-thirteen{
+    width: 200px;
+    height: 200px;
+    margin-left: 840px;
+    margin-inline: 840px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-fourteen{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top : 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-fifteen{
+    width: 200px;
+    height: 200px;
+    margin-left: 210px;
+    margin-inline: 210px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-sixteen{
+    width: 200px;
+    height: 200px;
+    margin-left: 420px;
+    margin-inline: 420px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-seventeen{
+    width: 200px;
+    height: 200px;
+    margin-left: 630px;
+    margin-inline: 630px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-eighteen{
+    width: 200px;
+    height: 200px;
+    margin-left: 840px;
+    margin-inline: 840px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-nineteen{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top : 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#two-twenty{
+    width: 200px;
+    height: 200px;
+    margin-left: 210px;
+    margin-inline: 210px;
+    margin-top: -200px; /* Shifting it up (negative value to move it up) */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 #icon{
     width: 100px;
     height: 100px;
