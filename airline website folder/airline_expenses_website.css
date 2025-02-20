@@ -26,6 +26,54 @@ div{
     margin: 10px;
 }
 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #totalsector{
     position: relative;
     width: 200px;
@@ -36,6 +84,10 @@ div{
     align-items: center;
     cursor: pointer;
   }
+
+#totalsector:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
 
 .image{
     margin-left: 400px;
@@ -62,6 +114,10 @@ div{
     cursor: pointer;
   }
 
+  #ninety-five:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+  }
+  
   .images{
     position: absolute;
     display: none;
@@ -86,6 +142,11 @@ div{
     cursor: pointer;
   }
 
+    #ninety-six:hover{
+        opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+    }
+
+
   .imagess{
     display: none;
     flex-direction: row;
@@ -109,6 +170,11 @@ div{
     cursor: pointer;
 
 }
+
+#ninety-seven:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #ninety-eight{
     width: 200px;
     height: 200px;
@@ -122,6 +188,11 @@ div{
     cursor: pointer;
 }
 
+#ninety-eight:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
+
 #ninety-nine{
     position: relative;
     width: 200px;
@@ -132,6 +203,10 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#ninety-nine:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
 
 #two-zero{

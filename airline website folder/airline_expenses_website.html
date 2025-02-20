@@ -10,7 +10,7 @@
         <style>
             .inactive {
                 display: none;
-            }
+            }    
         </style>
     </head>
     <body>
@@ -34,7 +34,7 @@
 
                 <h2 id="graph-header">Graph of US Airlines Expenses</h2>
 
-                <div class="gallery-box" id="totalsector" onclick="changeImage('total')">
+                <div class="gallery-box" id="totalsector" onclick="openModal('Total Sector Expenses.png')">
                     <p>Total Sector Expenses for all Airlines</p>
                 </div>
 
@@ -42,222 +42,118 @@
                     <img src="Total Sector Expenses.png" alt="Total Expenses">
                 </div>
 
-                <div class="gallery-box" id="ninety-five" onclick="changeImage('1995')">
+                <div class="gallery-box" id="ninety-five" onclick="openModal('1995.png')">
                     <p>1995</p>
                 </div>
 
-                <div class="image" id="1995" style="display: none;">
-                    <img src="1995.png" alt="1995">
-                </div>
-
-                <div class="gallery-box" id="ninety-six" onclick="changeImage('1996')">
+                <div class="gallery-box" id="ninety-six" onclick="openModal('1996.png')">
                     <p>1996</p>
                 </div>
 
-                <div class="image" id="1996" style="display: none;">
-                    <img src="1996.png" alt="1996">
-                </div>
 
-                <div class="gallery-box" id="ninety-seven" onclick="changeImage('1997')">
+                <div class="gallery-box" id="ninety-seven" onclick="openModal('1997.png')">
                     <p>1997</p>
                 </div>
 
-                <div class="image" id="1997" style="display: none;">
-                    <img src="1997.png" alt="1997">
-                </div>
-
-                <div class="gallery-box" id="ninety-eight" onclick="changeImage('1998')">
+                <div class="gallery-box" id="ninety-eight" onclick="openModal('1998.png')">
                     <p>1998</p>
                 </div>
-
-                <div class="image" id="1998" style="display: none;">
-                    <img src="1998.png" alt="1998">
-                </div>
-
-
-                <div class="gallery-box" id="ninety-nine" onclick="changeImage('1999')">
+                
+                <div class="gallery-box" id="ninety-nine" onclick="openModal('1999.png')">
                     <p>1999</p>
                 </div>
 
-                <div class="image" id="1999" style="display: none;">
-                    <img src="1998.png" alt="1999">
-                </div>
 
-
-                <div class="gallery-box" id="two-zero" onclick="changeImage('2000')">
+                <div class="gallery-box" id="two-zero" onclick="openModal('2000.png')">
                     <p>2000</p>
                 </div>
 
-                <div class="image" id="2000" style="display: none;">
-                    <img src="2000.png" alt="2000">
-                </div>
-
-                <div class="gallery-box" id="two-one" onclick="changeImage('2001')">
+                <div class="gallery-box" id="two-one" onclick="openModal('2001.png')">
                     <p>2001</p>
                 </div>
 
-                <div class="image" id="2001" style="display: none;">
-                    <img src="2001.png" alt="2001">
-                </div>
-
-
-                <div class="gallery-box" id="two-two" onclick="changeImage('2002')">
+                <div class="gallery-box" id="two-two" onclick="openModal('2002.png')">
                     <p>2002</p>
                 </div>
 
-                <div class="image" id="2002" style="display: none;">
-                    <img src="2002.png" alt="2002">
-                </div>
-
-                <div class="gallery-box" id="two-three" onclick="changeImage('2003')">
+                <div class="gallery-box" id="two-three" onclick="openModal('2003.png')">
                     <p>2003</p>
                 </div>
-
-                <div class="image" id="2003" style="display: none;">
-                    <img src="2003.png" alt="2003">
-                </div>
-
-                <div class="gallery-box" id="two-four" onclick="changeImage('2004')">
+                
+                <div class="gallery-box" id="two-four" onclick="openModal('2004.png')">
                     <p>2004</p>
                 </div>
 
-                <div class="image" id="2004" style="display: none;">
-                    <img src="2004.png" alt="2004">
-                </div>
-
-
-                <div class="gallery-box" id="two-five" onclick="changeImage('2005')">
+                <div class="gallery-box" id="two-five" onclick="openModal('2005.png')">
                     <p>2005</p>
                 </div>
 
-                <div class="image" id="2005" style="display: none;">
-                    <img src="2005.png" alt="2005">
-                </div>
-
-                <div class="gallery-box" id="two-six" onclick="changeImage('2006')">
+                <div class="gallery-box" id="two-six" onclick="openModal('2006.png')">
                     <p>2006</p>
                 </div>
 
-                <div class="image" id="2006" style="display: none;">
-                    <img src="2006.png" alt="2006">
-                </div>
-
-                <div class="gallery-box" id="two-seven" onclick="changeImage('2007')">
+                <div class="gallery-box" id="two-seven" onclick="openModal('2007.png')">
                     <p>2007</p>
                 </div>
 
-                <div class="image" id="2007" style="display: none;">
-                    <img src="2007.png" alt="2007">
-                </div>
-
-                <div class="gallery-box" id="two-eight" onclick="changeImage('2008')">
+                <div class="gallery-box" id="two-eight" onclick="openModal('2008.png')">
                     <p>2008</p>
                 </div>
 
-                <div class="image" id="2008" style="display: none;">
-                    <img src="2008.png" alt="2008">
-                </div>
-
-                <div class="gallery-box" id="two-nine" onclick="changeImage('2009')">
+                <div class="gallery-box" id="two-nine" onclick="openModal('2009.png')">
                     <p>2009</p>
                 </div>
 
-                <div class="image" id="2009" style="display: none;">
-                    <img src="2009.png" alt="2009">
-                </div>
-
-
-                <div class="gallery-box" id="two-ten" onclick="changeImage('2010')">
+                <div class="gallery-box" id="two-ten" onclick="openModal('2010.png')">
                     <p>2010</p>
                 </div>
 
-                <div class="image" id="2010" style="display: none;">
-                    <img src="2010.png" alt="2010">
-                </div>
-
-                <div class="gallery-box" id="two-eleven" onclick="changeImage('2011')">
+                <div class="gallery-box" id="two-eleven" onclick="openModal('2011.png')">
                     <p>2011</p>
                 </div>
-
-                <div class="image" id="2011" style="display: none;">
-                    <img src="2011.png" alt="2011">
-                </div>
-
-                <div class="gallery-box" id="two-twelve" onclick="changeImage('2012')">
+                
+                <div class="gallery-box" id="two-twelve" onclick="openModal('2012.png')">
                     <p>2012</p>
                 </div>
 
-                <div class="image" id="2012" style="display: none;">
-                    <img src="2012.png" alt="2012">
-                </div>
-
-                <div class="gallery-box" id="two-thirteen" onclick="changeImage('2013')">
+                <div class="gallery-box" id="two-thirteen" onclick="openModal('2013.png')">
                     <p>2013</p>
                 </div>
 
-                <div class="image" id="2013" style="display: none;">
-                    <img src="2013.png" alt="2013">
-                </div>
-
-                <div class="gallery-box" id="two-fourteen" onclick="changeImage('2014')">
+                <div class="gallery-box" id="two-fourteen" onclick="openModal('2014.png')">
                     <p>2014</p>
                 </div>
 
-                <div class="image" id="2014" style="display: none;">
-                    <img src="2014.png" alt="2014">
-                </div>
-
-                <div class="gallery-box" id="two-fifteen" onclick="changeImage('2015')">
+                <div class="gallery-box" id="two-fifteen" onclick="openModal('2015.png')">
                     <p>2015</p>
                 </div>
 
-                <div class="image" id="2015" style="display: none;">
-                    <img src="2015.png" alt="2015">
-                </div>
-
-                <div class="gallery-box" id="two-sixteen" onclick="changeImage('2016')">
+                <div class="gallery-box" id="two-sixteen" onclick="openModal('2016.png')">
                     <p>2016</p>
                 </div>
-
-                <div class="image" id="2016" style="display: none;">
-                    <img src="2016.png" alt="2016">
-                </div>
-
-                <div class="gallery-box" id="two-seventeen" onclick="changeImage('2017')">
+                
+                <div class="gallery-box" id="two-seventeen" onclick="openModal('2017.png')">
                     <p>2017</p>
                 </div>
 
-                <div class="image" id="2017" style="display: none;">
-                    <img src="2017.png" alt="2017">
-                </div>
-
-                <div class="gallery-box" id="two-eighteen" onclick="changeImage('2018')">
+                <div class="gallery-box" id="two-eighteen" onclick="openModal('2018.png')">
                     <p>2018</p>
                 </div>
 
-                <div class="image" id="2018" style="display: none;">
-                    <img src="2018.png" alt="2018">
-                </div>
-
-                <div class="gallery-box" id="two-nineteen" onclick="changeImage('2019')">
+                <div class="gallery-box" id="two-nineteen" onclick="openModal('2019.png')">
                     <p>2019</p>
                 </div>
 
-                <div class="image" id="2019" style="display: none;">
-                    <img src="2019.png" alt="2019">
-                </div>
-
-                <div class="gallery-box" id="two-twenty" onclick="changeImage('2020')">
+                <div class="gallery-box" id="two-twenty" onclick="openModal('2020.png')">
                     <p>2020</p>
                 </div>
+                
 
-                <div class="image" id="2020" style="display: none;">
-                    <img src="2020.png" alt="2020">
+                  <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImg">
                 </div>
-
-            </section>
-        </div>
-
         <script>
             function toggleSection(){
                 document.getElementById("pop").classList.add("inactive");
@@ -276,6 +172,19 @@
                 if (imageToShow) {
                     imageToShow.style.display = 'block';
                 }
+            }
+
+            function openModal(src) {
+                var modal = document.getElementById("myModal");
+                var modalImg = document.getElementById("modalImg");
+
+                modal.style.display = "block";
+                modalImg.src = src;
+            }
+
+            function closeModal() {
+                var modal = document.getElementById("myModal");
+                modal.style.display = "none";
             }
         </script>
     </body>
