@@ -222,6 +222,10 @@ div{
     cursor: pointer;
 }
 
+#two-zero:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-one{
     width: 200px;
     height: 200px;
@@ -235,6 +239,9 @@ div{
     cursor: pointer;
 }
 
+#two-one:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
 #two-two{
     width: 200px;
     height: 200px;
@@ -248,6 +255,9 @@ div{
     cursor: pointer;
 }
 
+#two-two:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
 #two-three{
     width: 200px;
     height: 200px;
@@ -261,6 +271,10 @@ div{
     cursor: pointer;
 }
 
+#two-three:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-four{
     position: relative;
     width: 200px;
@@ -271,6 +285,10 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#two-four:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
 
 #two-five{
@@ -286,6 +304,10 @@ div{
     cursor: pointer;
 }
 
+#two-five:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-six{
     width: 200px;
     height: 200px;
@@ -297,6 +319,10 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#two-six:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
 
 #two-seven{
@@ -312,6 +338,10 @@ div{
     cursor: pointer;
 }
 
+#two-seven:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-eight{
     width: 200px;
     height: 200px;
@@ -325,6 +355,10 @@ div{
     cursor: pointer;
 }
 
+#two-eight:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-nine{
     position: relative;
     width: 200px;
@@ -335,6 +369,10 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#two-nine:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
 
 #two-ten{
@@ -350,6 +388,10 @@ div{
     cursor: pointer;
 }
 
+#two-ten:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
+}
+
 #two-eleven{
     width: 200px;
     height: 200px;
@@ -361,6 +403,10 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#two-eleven:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
 
 #two-twelve{
@@ -484,4 +530,8 @@ div{
     margin-top: 300px;
     margin-right: 300px;
     margin-bottom: 300px;
+}
+
+#icon:hover{
+    opacity: 0.7;  /* when i hover my mouse on the image, the opacity of the image will be 0.7 */
 }
