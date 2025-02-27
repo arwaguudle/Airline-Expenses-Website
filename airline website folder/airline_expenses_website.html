@@ -1,191 +1,195 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=10">
-        <meta name="author" content="Arwa Ibrahim Guudle">
-        <title>Airline Expenses</title>
-        <link rel="stylesheet" type="text/css" href="airline_expenses_website.css">
 
-        <style>
-            .inactive {
-                display: none;
-            }    
-        </style>
-    </head>
-    <body>
-        <div class="inner">
-            <section id="pop" class="active" style="text-align: center;">
-                <h1 id="text1">Click on the icon to continue...</h1>
-                <img src="https://banner2.cleanpng.com/20180407/cew/avgs2v730.webp" 
-                     alt="airplane" id="icon" onclick="toggleSection()">
-            </section>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <meta name="author" content="Arwa Ibrahim Guudle">
+    <title>Airline Expenses</title>
+    <link rel="stylesheet" type="text/css" href="airline_expenses_website.css">
 
-        <div class="inner">
-            <section id="beginning" class="inactive">
-                <h1 id="main-header"></h1>
-                <p id="main-introduction">This is my little paragraph on the airline website</p>
-                <p id="website-description">The following website contains the graph used from the following dataset website: </p>
-                <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
-                    <input type="submit" value="Click here to view the dataset">
-                </form>
-                <p id="summary">This website contains the information</p>
+    <style>
+        .inactive {
+            display: none;
+        }
+    </style>
+</head>
 
-                <h2 id="graph-header">Graph of US Airlines Expenses</h2>
+<body>
+    <div class="inner">
+        <section id="pop" class="active" style="text-align: center;">
+            <h1 id="text1">Click on the icon to continue...</h1>
+            <img src="star.png" alt="airplane" id="icon"
+                onclick="toggleSection()">
+        </section>
+    </div>
 
-                <div class="gallery-box" id="totalsector" onclick="openModal('Total Sector Expenses.png')">
-                    <p>Total Sector Expenses for all Airlines</p>
-                </div>
+    <div class="inner">
+        <section id="beginning" class="inactive">
+            <h1 id="main-header"></h1>
+            <p id="main-introduction">This is my little paragraph on the airline website</p>
+            <p id="website-description">The following website contains the graph used from the following dataset
+                website: </p>
+            <form action="https://web.mit.edu/airlinedata/www/Revenue&Related.html">
+                <input type="submit" value="Click here to view the dataset">
+            </form>
+            <p id="summary">This website contains the information</p>
 
-                <div class="image" id="total">
-                    <img src="Total Sector Expenses.png" alt="Total Expenses">
-                </div>
+            <h2 id="graph-header">Graph of US Airlines Expenses</h2>
 
-                <div class="gallery-box" id="ninety-five" onclick="openModal('1995.png')">
-                    <p>1995</p>
-                </div>
+            <div class="gallery-box" id="totalsector" onclick="openModal('Total Sector Expenses.png')">
+                <p>Total Sector Expenses for all Airlines</p>
+            </div>
 
-                <div class="gallery-box" id="ninety-six" onclick="openModal('1996.png')">
-                    <p>1996</p>
-                </div>
+            <div class="image" id="total">
+                <img src="Total Sector Expenses.png" alt="Total Expenses">
+            </div>
 
+            <div class="gallery-box" id="ninety-five" onclick="openModal('1995.png')">
+                <p>1995</p>
+            </div>
 
-                <div class="gallery-box" id="ninety-seven" onclick="openModal('1997.png')">
-                    <p>1997</p>
-                </div>
-
-                <div class="gallery-box" id="ninety-eight" onclick="openModal('1998.png')">
-                    <p>1998</p>
-                </div>
-                
-                <div class="gallery-box" id="ninety-nine" onclick="openModal('1999.png')">
-                    <p>1999</p>
-                </div>
+            <div class="gallery-box" id="ninety-six" onclick="openModal('1996.png')">
+                <p>1996</p>
+            </div>
 
 
-                <div class="gallery-box" id="two-zero" onclick="openModal('2000.png')">
-                    <p>2000</p>
-                </div>
+            <div class="gallery-box" id="ninety-seven" onclick="openModal('1997.png')">
+                <p>1997</p>
+            </div>
 
-                <div class="gallery-box" id="two-one" onclick="openModal('2001.png')">
-                    <p>2001</p>
-                </div>
+            <div class="gallery-box" id="ninety-eight" onclick="openModal('1998.png')">
+                <p>1998</p>
+            </div>
 
-                <div class="gallery-box" id="two-two" onclick="openModal('2002.png')">
-                    <p>2002</p>
-                </div>
+            <div class="gallery-box" id="ninety-nine" onclick="openModal('1999.png')">
+                <p>1999</p>
+            </div>
 
-                <div class="gallery-box" id="two-three" onclick="openModal('2003.png')">
-                    <p>2003</p>
-                </div>
-                
-                <div class="gallery-box" id="two-four" onclick="openModal('2004.png')">
-                    <p>2004</p>
-                </div>
 
-                <div class="gallery-box" id="two-five" onclick="openModal('2005.png')">
-                    <p>2005</p>
-                </div>
+            <div class="gallery-box" id="two-zero" onclick="openModal('2000.png')">
+                <p>2000</p>
+            </div>
 
-                <div class="gallery-box" id="two-six" onclick="openModal('2006.png')">
-                    <p>2006</p>
-                </div>
+            <div class="gallery-box" id="two-one" onclick="openModal('2001.png')">
+                <p>2001</p>
+            </div>
 
-                <div class="gallery-box" id="two-seven" onclick="openModal('2007.png')">
-                    <p>2007</p>
-                </div>
+            <div class="gallery-box" id="two-two" onclick="openModal('2002.png')">
+                <p>2002</p>
+            </div>
 
-                <div class="gallery-box" id="two-eight" onclick="openModal('2008.png')">
-                    <p>2008</p>
-                </div>
+            <div class="gallery-box" id="two-three" onclick="openModal('2003.png')">
+                <p>2003</p>
+            </div>
 
-                <div class="gallery-box" id="two-nine" onclick="openModal('2009.png')">
-                    <p>2009</p>
-                </div>
+            <div class="gallery-box" id="two-four" onclick="openModal('2004.png')">
+                <p>2004</p>
+            </div>
 
-                <div class="gallery-box" id="two-ten" onclick="openModal('2010.png')">
-                    <p>2010</p>
-                </div>
+            <div class="gallery-box" id="two-five" onclick="openModal('2005.png')">
+                <p>2005</p>
+            </div>
 
-                <div class="gallery-box" id="two-eleven" onclick="openModal('2011.png')">
-                    <p>2011</p>
-                </div>
-                
-                <div class="gallery-box" id="two-twelve" onclick="openModal('2012.png')">
-                    <p>2012</p>
-                </div>
+            <div class="gallery-box" id="two-six" onclick="openModal('2006.png')">
+                <p>2006</p>
+            </div>
 
-                <div class="gallery-box" id="two-thirteen" onclick="openModal('2013.png')">
-                    <p>2013</p>
-                </div>
+            <div class="gallery-box" id="two-seven" onclick="openModal('2007.png')">
+                <p>2007</p>
+            </div>
 
-                <div class="gallery-box" id="two-fourteen" onclick="openModal('2014.png')">
-                    <p>2014</p>
-                </div>
+            <div class="gallery-box" id="two-eight" onclick="openModal('2008.png')">
+                <p>2008</p>
+            </div>
 
-                <div class="gallery-box" id="two-fifteen" onclick="openModal('2015.png')">
-                    <p>2015</p>
-                </div>
+            <div class="gallery-box" id="two-nine" onclick="openModal('2009.png')">
+                <p>2009</p>
+            </div>
 
-                <div class="gallery-box" id="two-sixteen" onclick="openModal('2016.png')">
-                    <p>2016</p>
-                </div>
-                
-                <div class="gallery-box" id="two-seventeen" onclick="openModal('2017.png')">
-                    <p>2017</p>
-                </div>
+            <div class="gallery-box" id="two-ten" onclick="openModal('2010.png')">
+                <p>2010</p>
+            </div>
 
-                <div class="gallery-box" id="two-eighteen" onclick="openModal('2018.png')">
-                    <p>2018</p>
-                </div>
+            <div class="gallery-box" id="two-eleven" onclick="openModal('2011.png')">
+                <p>2011</p>
+            </div>
 
-                <div class="gallery-box" id="two-nineteen" onclick="openModal('2019.png')">
-                    <p>2019</p>
-                </div>
+            <div class="gallery-box" id="two-twelve" onclick="openModal('2012.png')">
+                <p>2012</p>
+            </div>
 
-                <div class="gallery-box" id="two-twenty" onclick="openModal('2020.png')">
-                    <p>2020</p>
-                </div>
-                
+            <div class="gallery-box" id="two-thirteen" onclick="openModal('2013.png')">
+                <p>2013</p>
+            </div>
 
-                  <!-- The Modal -->
-                <div id="myModal" class="modal">
-                    <span class="close" onclick="closeModal()">&times;</span>
-                    <img class="modal-content" id="modalImg">
-                </div>
-        <script>
-            function toggleSection(){
-                document.getElementById("pop").classList.add("inactive");
-                document.getElementById("beginning").classList.remove("inactive");
-            }
+            <div class="gallery-box" id="two-fourteen" onclick="openModal('2014.png')">
+                <p>2014</p>
+            </div>
 
-            function changeImage(imageId) {
-                // Hide all images
-                const images = document.querySelectorAll('.image');
-                images.forEach(image => {
-                    image.style.display = 'none';
-                });
+            <div class="gallery-box" id="two-fifteen" onclick="openModal('2015.png')">
+                <p>2015</p>
+            </div>
 
-                // Show the clicked image
-                const imageToShow = document.getElementById(imageId);
-                if (imageToShow) {
-                    imageToShow.style.display = 'block';
+            <div class="gallery-box" id="two-sixteen" onclick="openModal('2016.png')">
+                <p>2016</p>
+            </div>
+
+            <div class="gallery-box" id="two-seventeen" onclick="openModal('2017.png')">
+                <p>2017</p>
+            </div>
+
+            <div class="gallery-box" id="two-eighteen" onclick="openModal('2018.png')">
+                <p>2018</p>
+            </div>
+
+            <div class="gallery-box" id="two-nineteen" onclick="openModal('2019.png')">
+                <p>2019</p>
+            </div>
+
+            <div class="gallery-box" id="two-twenty" onclick="openModal('2020.png')">
+                <p>2020</p>
+            </div>
+
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImg">
+            </div>
+            <script>
+                function toggleSection() {
+                    document.getElementById("pop").classList.add("inactive");
+                    document.getElementById("beginning").classList.remove("inactive");
                 }
-            }
 
-            function openModal(src) {
-                var modal = document.getElementById("myModal");
-                var modalImg = document.getElementById("modalImg");
+                function changeImage(imageId) {
+                    // Hide all images
+                    const images = document.querySelectorAll('.image');
+                    images.forEach(image => {
+                        image.style.display = 'none';
+                    });
 
-                modal.style.display = "block";
-                modalImg.src = src;
-            }
+                    // Show the clicked image
+                    const imageToShow = document.getElementById(imageId);
+                    if (imageToShow) {
+                        imageToShow.style.display = 'block';
+                    }
+                }
 
-            function closeModal() {
-                var modal = document.getElementById("myModal");
-                modal.style.display = "none";
-            }
-        </script>
-    </body>
+                function openModal(src) {
+                    var modal = document.getElementById("myModal");
+                    var modalImg = document.getElementById("modalImg");
+
+                    modal.style.display = "block";
+                    modalImg.src = src;
+                }
+
+                function closeModal() {
+                    var modal = document.getElementById("myModal");
+                    modal.style.display = "none";
+                }
+            </script>
+</body>
+
 </html>
