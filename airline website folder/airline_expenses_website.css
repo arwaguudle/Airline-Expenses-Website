@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'MyCalligraphyFont';
+    src: url('fonts/Myfont-Regular.woff2') format('woff2'),
+         url('fonts/Myfont-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCalligraphyFont', cursive;
+}
+
 #pop{
     background-image: url(wallpaper.png);
     background-size: cover;
