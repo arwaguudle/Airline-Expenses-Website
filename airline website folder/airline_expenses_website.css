@@ -604,4 +604,14 @@ body {
       transform: rotate(0deg);
     }
     to {
-      tra
+      transform: rotate(360deg);
+    }
+  }
+
+  #footer{
+    height:70px;
+    margin-left: -150px;
+    position:relative;
+    margin: 10px;
+    margin-inline: 20px;
+  }
