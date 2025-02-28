@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'MyCalligraphyFont';
+    font-family: 'CalligraphyFont';
     src: url('fonts/Myfont-Regular.woff2') format('woff2'),
          url('fonts/Myfont-Regular.woff') format('woff');
     font-weight: normal;
@@ -7,8 +7,22 @@
 }
 
 body {
-    font-family: 'MyCalligraphyFont', cursive;
+    margin:0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    font-family: 'CalligraphyFont', cursive;
+    font-size: 21px;
 }
+
+#text1{
+    font-family: 'CalligraphyFont', cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: -350px;
+    
+}
+
 
 #pop{
     background-image: url(wallpaper.png);
@@ -40,14 +54,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
-.main-introduction{
-    position: relative;
-    margin-top:-10px
-}
+
+
 /*
-div{
+.div1{
     width: 200px;
     height: 100px;
     background-color: lightblue;
@@ -117,7 +130,6 @@ div{
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +158,6 @@ div{
     margin-left: 210px;
     margin-inline: 210px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +185,6 @@ div{
     margin-left: 420px;
     margin-inline: 420px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +212,6 @@ div{
     margin-left: 630px;
     margin-inline: 630px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +229,6 @@ div{
     margin-left: 840px;
     margin-inline: 840px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +247,6 @@ div{
     margin-top : -200px;
     margin-left: 1050px;
     margin-inline: 1050px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +261,6 @@ div{
     width: 200px;
     height: 200px;
     margin-top: 20px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +277,6 @@ div{
     margin-left: 210px;
     margin-inline: 210px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,7 +292,6 @@ div{
     margin-left: 420px;
     margin-inline: 420px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,7 +307,6 @@ div{
     margin-left: 630px;
     margin-inline: 630px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,7 +324,6 @@ div{
     margin-left: 840px;
     margin-inline: 840px;
     margin-top : -200px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,7 +340,6 @@ div{
     margin-left: 1050px;
     margin-inline: 1050px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,7 +354,6 @@ div{
     width: 200px;
     height: 200px;
     margin-top: 20px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,7 +370,6 @@ div{
     margin-left: 210px;
     margin-inline: 210px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,7 +386,6 @@ div{
     margin-left: 420px;
     margin-inline: 420px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,7 +403,6 @@ div{
     margin-left: 630px;
     margin-inline: 630px;
     margin-top : -200px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,7 +419,6 @@ div{
     margin-left: 840px;
     margin-inline: 840px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -439,7 +435,6 @@ div{
     margin-left: 1050px;
     margin-inline: 1050px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,7 +449,6 @@ div{
     width: 200px;
     height: 200px;
     margin-top: 20px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -470,7 +464,6 @@ div{
     margin-left: 210px;
     margin-inline: 210px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,7 +481,6 @@ div{
     margin-left: 420px;
     margin-inline: 420px;
     margin-top : -200px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +497,6 @@ div{
     margin-left: 630px;
     margin-inline: 630px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -522,7 +513,6 @@ div{
     margin-left: 840px;
     margin-inline: 840px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -539,7 +529,6 @@ div{
     margin-left: 1050px;
     margin-inline: 1050px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -554,7 +543,6 @@ div{
     width: 200px;
     height: 200px;
     margin-top: 20px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -572,7 +560,6 @@ div{
     margin-left: 210px;
     margin-inline: 210px;
     margin-top : -200px;
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -589,7 +576,6 @@ div{
     margin-left: 420px;
     margin-inline: 420px;
     margin-top: -200px; /* Shifting it up (negative value to move it up) */
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
